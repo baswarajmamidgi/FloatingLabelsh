@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Splash_Screen">
+
+       <item android:id="@+id/personal" android:title="Personal Details"
+
+        android:orderInCategory="100" app:showAsAction="never"
+       />
+    <item android:id="@+id/contacts" android:title="Contacts"
+
+        android:orderInCategory="100" app:showAsAction="never"
+       />
+
+
+</menu>

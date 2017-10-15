@@ -1,0 +1,306 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:id="@+id/layout"
+
+    android:background="#000000">
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton4"
+        android:background="@drawable/jacks"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Happiness Station"
+        android:id="@+id/textView5"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:textColor="#ffffff" />
+
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton5"
+        android:background="@drawable/lib"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButton4"
+        android:layout_toEndOf="@+id/imageButton4"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton6"
+        android:background="@drawable/patron"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButton5"
+        android:layout_toEndOf="@+id/imageButton5"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton7"
+        android:background="@drawable/pg"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="10dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton8"
+        android:background="@drawable/sports"
+        android:layout_below="@+id/textView5"
+        android:layout_toRightOf="@+id/imageButton7"
+        android:layout_toEndOf="@+id/imageButton7"
+        android:layout_marginRight="15dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton9"
+        android:background="@drawable/dblock"
+        android:layout_below="@+id/textView7"
+        android:layout_toRightOf="@+id/imageButton8"
+        android:layout_toEndOf="@+id/imageButton8"
+        android:layout_marginRight="15dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton10"
+        android:background="@drawable/audi"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="10dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton11"
+        android:background="@drawable/canteen"
+        android:layout_alignTop="@+id/imageButton10"
+        android:layout_toRightOf="@+id/imageButton10"
+        android:layout_toEndOf="@+id/imageButton10"
+        android:layout_marginRight="15dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton12"
+        android:background="@drawable/gate"
+        android:layout_alignTop="@+id/imageButton11"
+        android:layout_toRightOf="@+id/imageButton11"
+        android:layout_toEndOf="@+id/imageButton11"
+        android:layout_marginRight="15dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton13"
+        android:background="@drawable/ground"
+        android:layout_above="@+id/textView7"
+        android:layout_toRightOf="@+id/imageButton6"
+        android:layout_toEndOf="@+id/imageButton6"
+        android:layout_marginTop="15dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton14"
+        android:background="@drawable/svp"
+        android:layout_below="@+id/textView7"
+        android:layout_toRightOf="@+id/imageButton9"
+        android:layout_toEndOf="@+id/imageButton9" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton15"
+        android:background="@drawable/way"
+        android:layout_above="@+id/textView13"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Library"
+        android:id="@+id/textView6"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/imageButton5"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Patrons Bhavan"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/imageButton6"
+        android:layout_alignBottom="@+id/textView5"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/textView13"
+        android:layout_alignEnd="@+id/textView13"
+        android:textColor="#ffffff"
+        android:layout_alignLeft="@+id/imageButton9"
+        android:layout_alignStart="@+id/imageButton9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="PG Block"
+        android:id="@+id/textView8"
+        android:layout_alignRight="@+id/imageButton7"
+        android:layout_alignEnd="@+id/imageButton7"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButton7"
+
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignStart="@+id/imageButton7"
+        android:layout_alignLeft="@+id/imageButton7"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sports Block"
+        android:id="@+id/textView9"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButton8"
+        android:layout_alignRight="@+id/imageButton8"
+        android:layout_alignEnd="@+id/imageButton8"
+        android:textColor="#ffffff"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="D-Block"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/imageButton9"
+        android:layout_alignLeft="@+id/imageButton9"
+        android:layout_alignStart="@+id/imageButton9"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Auditorium"
+        android:id="@+id/textView11"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_alignStart="@+id/imageButton10"
+        android:layout_alignLeft="@+id/imageButton10"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Canteen"
+        android:id="@+id/textView12"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButton11"
+        android:layout_alignRight="@+id/imageButton11"
+        android:layout_alignEnd="@+id/imageButton11"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Main Gate"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/imageButton12"
+        android:layout_alignLeft="@+id/imageButton12"
+        android:layout_alignStart="@+id/imageButton12"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="  Ground"
+        android:id="@+id/textView14"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_alignRight="@+id/imageButton13"
+        android:layout_alignEnd="@+id/imageButton13"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignLeft="@+id/imageButton13"
+        android:layout_alignStart="@+id/imageButton13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Student Parking"
+        android:id="@+id/textView15"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButton14"
+        android:layout_alignLeft="@+id/imageButton14"
+        android:layout_alignStart="@+id/imageButton14"
+        android:layout_alignRight="@+id/imageButton14"
+        android:layout_alignEnd="@+id/imageButton14"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Way to Parking"
+        android:id="@+id/textView16"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/imageButton15"
+        android:layout_alignEnd="@+id/imageButton15"
+        android:layout_below="@+id/imageButton15"
+        android:layout_alignLeft="@+id/imageButton15"
+        android:layout_alignStart="@+id/imageButton15"
+        android:textColor="#ffffff" />
+
+    <ImageButton
+        android:layout_width="275dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/but"
+        android:layout_below="@+id/textView16"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
